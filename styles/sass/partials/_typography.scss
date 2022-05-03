@@ -1,0 +1,51 @@
+// import Lora Serif font
+@font-face {
+    font-family: 'Lora', serif;
+    src: url(https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap);
+    font-weight: bold;
+}
+
+// import Roboto Sans-Serif font in bold
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap);
+    font-weight: bold;
+}
+
+// import Robot Sans-Serif font in regular
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+    font-weight: normal;
+}
+
+
+// typography
+
+html{
+    font-size: 125%;
+}
+
+h2,h3, h4, h5, .navMenu{
+    font-family: $bodyFont;
+    color: $primary;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 5rem;
+    line-height: 92px;
+}
+
+h3{
+    font-size: 2.6rem;
+
+}
+
+h4{
+    font-size: 2rem;
+}
+
