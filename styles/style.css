@@ -226,6 +226,18 @@ html {
   overflow: hidden;
 }
 
+.skipLink {
+  position: absolute;
+  left: -1000px;
+  top: 5px;
+  z-index: 999;
+  background: white;
+}
+
+.skipLink:focus {
+  left: 0;
+}
+
 @font-face {
   font-family: "Lora", serif;
   src: url(https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap);
@@ -245,7 +257,11 @@ html {
   font-size: 125%;
 }
 
-h2, h3, h4, h5, .navMenu {
+nav, header {
+  background-color: #f6a823;
+}
+
+h1, h2, h3, h4, h5, .navBar, .button {
   font-family: "Roboto", sans-serif;
   color: #2c2c2c;
   letter-spacing: 1px;
@@ -253,15 +269,121 @@ h2, h3, h4, h5, .navMenu {
   font-weight: bold;
 }
 
+h1 {
+  font-size: 6rem;
+}
+
 h2 {
-  font-size: 5rem;
-  line-height: 92px;
+  font-size: 2.5rem;
 }
 
 h3 {
-  font-size: 2.6rem;
+  font-size: 2rem;
 }
 
 h4 {
   font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+ul, li, a {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button {
+  font-size: 1rem;
+  background-color: #05afc1;
+  line-height: 32px;
+  padding: 20px;
+}
+
+.wrapper {
+  max-width: 1260px;
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.navBar .navMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.navBar li {
+  margin: 20px;
+}
+.navBar .homeA {
+  color: #f0efed;
+}
+.navBar .logo {
+  font-size: 1.7rem;
+}
+
+header .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sophie {
+  padding-top: 80px;
+  -webkit-box-shadow: rgb(240, 239, 237);
+          box-shadow: rgb(240, 239, 237);
+}
+
+.whoIsSophie {
+  background-color: whitesmoke;
+}
+
+.whoIsSophieText {
+  margin: 30px;
+}
+
+.journeyImg {
+  width: 100%;
+}
+
+.gallery {
+  padding: 50px;
+}
+
+.galleryList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer {
+  background-color: #414141;
+  text-align: center;
+  color: #f0efed;
 }

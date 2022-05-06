@@ -1,0 +1,19 @@
+.navBar{
+    .navMenu {
+        display: flex;
+        justify-content: center;
+    }
+
+    li{
+        margin: 20px;
+
+    }
+
+    .homeA{
+        color: $whiteShade;
+    }
+
+    .logo{
+        font-size: 1.7rem;
+    }
+}

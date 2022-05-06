@@ -27,7 +27,12 @@ html{
     font-size: 125%;
 }
 
-h2,h3, h4, h5, .navMenu{
+nav, header{
+    background-color: $orangeYellow;
+}
+
+
+h1, h2,h3, h4, h5, .navBar, .button{
     font-family: $bodyFont;
     color: $primary;
     letter-spacing: 1px;
@@ -35,13 +40,16 @@ h2,h3, h4, h5, .navMenu{
     font-weight: bold;
 }
 
+h1{
+    font-size: 6rem;
+}
 h2{
-    font-size: 5rem;
-    line-height: 92px;
+    font-size: 2.5rem;
+    // line-height: 92px;
 }
 
 h3{
-    font-size: 2.6rem;
+    font-size: 2rem;
 
 }
 
@@ -49,3 +57,28 @@ h4{
     font-size: 2rem;
 }
 
+h5{
+    font-size: 1.5rem;
+}
+
+ul, li, a{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.button{
+    font-size: 1rem;
+    background-color: $accent;
+    line-height: 32px;
+    padding: 20px;
+}
