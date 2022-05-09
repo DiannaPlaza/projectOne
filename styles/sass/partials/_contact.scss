@@ -1,11 +1,11 @@
 // contact styling
-
-.contactsMainContent .wrapper{
-    display: flex;
-        .icons{
+.contactMainContent{
+        display: flex;
+        .iconsContainer{
             width: 50%;
         }
         .formContainer{
             width: 50%;
         }
-}
+
+    }

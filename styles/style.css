@@ -436,7 +436,7 @@ header .wrapper .sophie img {
 .icons .contactIcons i {
   background-color: #f6a823;
   border-radius: 50%;
-  padding: 15px;
+  padding: 10px;
 }
 
 .chairPhoto img {
@@ -445,7 +445,6 @@ header .wrapper .sophie img {
 
 .journey {
   background-color: whitesmoke;
-  height: 500px;
 }
 .journey .wrapper {
   display: -webkit-box;
@@ -476,9 +475,16 @@ header .wrapper .sophie img {
       justify-content: space-around;
 }
 
-.contactsMainContent {
-  background-image: url(/assets/contact-image-1.jpg);
-  background-size: cover;
+.contactMainContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contactMainContent .iconsContainer {
+  width: 50%;
+}
+.contactMainContent .formContainer {
+  width: 50%;
 }
 
 footer {
