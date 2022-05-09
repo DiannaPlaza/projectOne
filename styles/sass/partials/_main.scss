@@ -1,5 +1,5 @@
 .whoIsSophie {
-    background-color: whitesmoke;
+    background-color: $whiteShade;
     height: 400px;
     display: flex;
 
@@ -56,20 +56,17 @@
 }
 
 .icons {
-    background-color: whitesmoke;
-
-    .contactIcons {
-        display: flex;
-            // .flex{
-            //     display: flex;
-            // }
-
-            i {
-            background-color: $orangeYellow;
-            border-radius: 50%;
-            padding: 10px;
+    background-color: $whiteShade;
+    .wrapper{
+        display:flex;
+        .contactIcons{
+            i{
+                background-color: $orangeYellow;
+                border-radius: 50%;
+                padding: 10px;
             }
         }
+    }
 }
 
 .chairPhoto img {
@@ -77,11 +74,11 @@
 }
 
 .journey {
-    background-color: whitesmoke;
+    background-color: $whiteShade;
+    height: 450px;
 
     .wrapper {
         display: flex;
-
         .journeyImgContainer {
             width: 40%;
 

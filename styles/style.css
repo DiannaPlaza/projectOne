@@ -257,7 +257,7 @@ html {
   font-size: 125%;
 }
 
-nav, header {
+nav {
   background-color: #f6a823;
 }
 
@@ -347,7 +347,11 @@ img {
   font-size: 2rem;
 }
 
-header .wrapper {
+.indexHeader {
+  background-color: #f6a823;
+}
+
+.wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -355,15 +359,15 @@ header .wrapper {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-header .wrapper .allAbout {
+.wrapper .allAbout {
   padding: 100px;
 }
-header .wrapper .allAbout img {
+.wrapper .allAbout img {
   position: relative;
   top: 120px;
   right: 80px;
 }
-header .wrapper .sophie img {
+.wrapper .sophie img {
   -webkit-box-shadow: 12px 12px 0px 10px rgb(240, 239, 237);
           box-shadow: 12px 12px 0px 10px rgb(240, 239, 237);
   position: relative;
@@ -371,7 +375,7 @@ header .wrapper .sophie img {
 }
 
 .whoIsSophie {
-  background-color: whitesmoke;
+  background-color: #f0efed;
   height: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -426,14 +430,14 @@ header .wrapper .sophie img {
 }
 
 .icons {
-  background-color: whitesmoke;
+  background-color: #f0efed;
 }
-.icons .contactIcons {
+.icons .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.icons .contactIcons i {
+.icons .wrapper .contactIcons i {
   background-color: #f6a823;
   border-radius: 50%;
   padding: 10px;
@@ -444,7 +448,8 @@ header .wrapper .sophie img {
 }
 
 .journey {
-  background-color: whitesmoke;
+  background-color: #f0efed;
+  height: 450px;
 }
 .journey .wrapper {
   display: -webkit-box;
@@ -473,6 +478,16 @@ header .wrapper .sophie img {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.contactHeader {
+  background-color: none;
+}
+.contactHeader img {
+  width: 100%;
+}
+.contactHeader .contactH1 {
+  font-size: 5rem;
 }
 
 .contactMainContent {

@@ -1,4 +1,13 @@
 // contact styling
+.contactHeader{
+    background-color: none;
+        img{
+            width: 100%;
+        }
+        .contactH1{
+            font-size: 5rem;
+        }
+}
 .contactMainContent{
         display: flex;
         .iconsContainer{
