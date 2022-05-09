@@ -31,8 +31,7 @@ nav, header{
     background-color: $orangeYellow;
 }
 
-
-h1, h2,h3, h4, h5, .navBar, .button{
+h2,h3, h4, h5, .navBar, .button{
     font-family: $bodyFont;
     color: $primary;
     letter-spacing: 1px;
@@ -41,11 +40,13 @@ h1, h2,h3, h4, h5, .navBar, .button{
 }
 
 h1{
-    font-size: 6rem;
+    font-family: $headingFont;
+    font-size: 7rem;
+    line-height: 92px;
+    text-transform: uppercase;
 }
 h2{
-    font-size: 2.5rem;
-    // line-height: 92px;
+    font-size: 2.4rem;
 }
 
 h3{
@@ -59,6 +60,10 @@ h4{
 
 h5{
     font-size: 1.5rem;
+}
+
+p{
+    line-height: 30px;
 }
 
 ul, li, a{
@@ -80,5 +85,5 @@ a{
     font-size: 1rem;
     background-color: $accent;
     line-height: 32px;
-    padding: 20px;
+    padding: 15px 25px;
 }

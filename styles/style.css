@@ -261,7 +261,7 @@ nav, header {
   background-color: #f6a823;
 }
 
-h1, h2, h3, h4, h5, .navBar, .button {
+h2, h3, h4, h5, .navBar, .button {
   font-family: "Roboto", sans-serif;
   color: #2c2c2c;
   letter-spacing: 1px;
@@ -270,11 +270,14 @@ h1, h2, h3, h4, h5, .navBar, .button {
 }
 
 h1 {
-  font-size: 6rem;
+  font-family: "Lora", serif;
+  font-size: 7rem;
+  line-height: 92px;
+  text-transform: uppercase;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
 }
 
 h3 {
@@ -287,6 +290,10 @@ h4 {
 
 h5 {
   font-size: 1.5rem;
+}
+
+p {
+  line-height: 30px;
 }
 
 ul, li, a {
@@ -307,16 +314,13 @@ a {
   font-size: 1rem;
   background-color: #05afc1;
   line-height: 32px;
-  padding: 20px;
+  padding: 15px 25px;
 }
 
 .wrapper {
   max-width: 1260px;
   width: 90%;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 img {
@@ -339,30 +343,83 @@ img {
   color: #f0efed;
 }
 .navBar .logo {
-  font-size: 1.7rem;
+  font-family: "Lora", serif;
+  font-size: 2rem;
 }
 
 header .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
-
-.sophie {
-  padding-top: 80px;
-  -webkit-box-shadow: rgb(240, 239, 237);
-          box-shadow: rgb(240, 239, 237);
+header .wrapper .allAbout {
+  padding: 100px;
+}
+header .wrapper .allAbout img {
+  position: relative;
+  top: 120px;
+  right: 80px;
+}
+header .wrapper .sophie img {
+  -webkit-box-shadow: 12px 12px 0px 10px rgb(240, 239, 237);
+          box-shadow: 12px 12px 0px 10px rgb(240, 239, 237);
+  position: relative;
+  top: 50px;
 }
 
 .whoIsSophie {
   background-color: whitesmoke;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.whoIsSophie p {
+  margin: 0 200px 50px 0;
+}
+.whoIsSophie .whoIsSophieText {
+  margin: 90px;
 }
 
-.whoIsSophieText {
-  margin: 30px;
+.favouriteThings .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.favouriteThings .wrapper .faveImgContainer {
+  width: 50%;
+}
+.favouriteThings .wrapper .faveImgContainer img {
+  position: relative;
+  bottom: 50px;
+  -webkit-box-shadow: 12px 20px 0px 0px rgb(168, 39, 6), -300px 20px 0px 0px rgb(168, 39, 6);
+          box-shadow: 12px 20px 0px 0px rgb(168, 39, 6), -300px 20px 0px 0px rgb(168, 39, 6);
+}
+.favouriteThings .wrapper .favouriteText {
+  width: 50%;
+  padding-left: 60px;
+}
+
+.travelled .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.travelled .wrapper .travelledText {
+  width: 50%;
+  text-align: right;
+  padding-right: 60px;
+}
+.travelled .wrapper .travelImgContainer {
+  width: 50%;
+}
+.travelled .wrapper .travelImgContainer img {
+  position: relative;
+  -webkit-box-shadow: 300px 20px 0px 0px rgb(246, 168, 35), 0px 20px 0px 0px rgb(246, 168, 35);
+          box-shadow: 300px 20px 0px 0px rgb(246, 168, 35), 0px 20px 0px 0px rgb(246, 168, 35);
 }
 
 .journeyImg {
@@ -377,9 +434,13 @@ header .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contactsMainContent {
+  background-image: url(/assets/contact-image-1.jpg);
+  background-size: cover;
 }
 
 footer {

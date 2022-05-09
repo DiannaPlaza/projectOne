@@ -1,10 +1,47 @@
 .whoIsSophie{
     background-color: whitesmoke;
+    height: 400px;
+    display:flex;
+
+    p{
+        margin: 0 200px 50px 0;
+    }
+    .whoIsSophieText{
+        margin: 90px
+    }
 }
-.whoIsSophieText{
-    margin: 30px
+.favouriteThings .wrapper{
+    display: flex;
+        .faveImgContainer{
+            width: 50%;
+                img{
+                    position: relative;
+                    bottom: 50px;
+                    box-shadow: 12px 20px 0px 0px  rgba(168, 39, 6), -300px 20px 0px 0px rgba(168, 39, 6);
+                }
+        }
+        .favouriteText{
+            width: 50%;
+            padding-left: 60px;
+        }
 }
 
+.travelled .wrapper{
+    display: flex;
+        .travelledText{
+            width: 50%;
+            text-align: right;
+            padding-right: 60px;
+        }
+        .travelImgContainer{
+            width: 50%;
+                img{
+                    position: relative;
+                    box-shadow: 300px 20px 0px 0px  rgba(246, 168, 35), 0px 20px 0px 0px rgba(246 168 35);
+
+                }
+        }
+}
 .journeyImg{
     width: 100%;
 }
@@ -13,5 +50,5 @@
 }
 .galleryList{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
