@@ -1,20 +1,73 @@
 // contact styling
-.contactHeader{
-    background-color: none;
-        img{
-            width: 100%;
-        }
-        .contactH1{
-            font-size: 5rem;
-        }
-}
-.contactMainContent{
-        display: flex;
-        .iconsContainer{
-            width: 50%;
-        }
-        .formContainer{
-            width: 50%;
-        }
+.contactHeader {
+    background-color: $whiteShade;
 
+    img {
+        width: 100vw;
+    }
+
+    .contactH1 {
+        font-size: 4rem;
+        margin: 0 auto;
+        position: relative;
+        bottom: 50px;
+    }
+}
+
+.contactMainContent {
+    background-color: $whiteShade;
+
+    .wrapper {
+        display: flex;
+
+        .iconsContainer {
+            background-color: white;
+            width: 30%;
+            height: 250px;
+            margin-right: 30px;
+
+            ul {
+                display: flex;
+
+                li {
+                    padding: 10px;
+
+                    i {
+                        color: $orangeYellow;
+                        font-size: 1.2rem;
+                        padding: 10px;
+                    }
+                }
+            }
+
+            .address {
+                padding-left: 20px;
+
+                .email {
+                    font-weight: bold;
+                    padding-bottom: 15px;
+
+                    p {
+                        line-height: 5px;
+                    }
+                }
+            }
+
+            .formContainer {
+                width: 70%;
+                margin-left: 70px;
+                height: 400px;
+
+                input {
+                    width: 40%;
+                    border: none;
+                    padding: 20px;
+                    margin-bottom: 20px;
+                }
+
+                label {
+                    border: none;
+                }
+            }
+        }
     }

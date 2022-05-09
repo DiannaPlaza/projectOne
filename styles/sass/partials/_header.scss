@@ -1,10 +1,10 @@
 .indexHeader{
     background-color: $orangeYellow;
+        .wrapper{
+            display: flex;
+            justify-content: space-between;
+        }
 }
-
-    .wrapper{
-        display: flex;
-        justify-content: space-between;
 
     .allAbout{
         padding:100px;
@@ -21,4 +21,4 @@
         position: relative;
         top: 50px;
     }
-}
+

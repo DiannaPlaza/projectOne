@@ -350,8 +350,7 @@ img {
 .indexHeader {
   background-color: #f6a823;
 }
-
-.wrapper {
+.indexHeader .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -359,15 +358,18 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.wrapper .allAbout {
+
+.allAbout {
   padding: 100px;
 }
-.wrapper .allAbout img {
+
+.allAbout img {
   position: relative;
   top: 120px;
   right: 80px;
 }
-.wrapper .sophie img {
+
+.sophie img {
   -webkit-box-shadow: 12px 12px 0px 10px rgb(240, 239, 237);
           box-shadow: 12px 12px 0px 10px rgb(240, 239, 237);
   position: relative;
@@ -481,25 +483,68 @@ img {
 }
 
 .contactHeader {
-  background-color: none;
+  background-color: #f0efed;
 }
 .contactHeader img {
-  width: 100%;
+  width: 100vw;
 }
 .contactHeader .contactH1 {
-  font-size: 5rem;
+  font-size: 4rem;
+  margin: 0 auto;
+  position: relative;
+  bottom: 50px;
 }
 
 .contactMainContent {
+  background-color: #f0efed;
+}
+.contactMainContent .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.contactMainContent .iconsContainer {
-  width: 50%;
+.contactMainContent .wrapper .iconsContainer {
+  background-color: white;
+  width: 30%;
+  height: 250px;
+  margin-right: 30px;
 }
-.contactMainContent .formContainer {
-  width: 50%;
+.contactMainContent .wrapper .iconsContainer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contactMainContent .wrapper .iconsContainer ul li {
+  padding: 10px;
+}
+.contactMainContent .wrapper .iconsContainer ul li i {
+  color: #f6a823;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+.contactMainContent .wrapper .iconsContainer .address {
+  padding-left: 20px;
+}
+.contactMainContent .wrapper .iconsContainer .address .email {
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.contactMainContent .wrapper .iconsContainer .address .email p {
+  line-height: 5px;
+}
+.contactMainContent .wrapper .formContainer {
+  width: 70%;
+  margin-left: 70px;
+  height: 400px;
+}
+.contactMainContent .wrapper .formContainer input {
+  width: 40%;
+  border: none;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.contactMainContent .wrapper .formContainer label {
+  border: none;
 }
 
 footer {
