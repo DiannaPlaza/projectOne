@@ -395,8 +395,9 @@ header .wrapper .sophie img {
 .favouriteThings .wrapper .faveImgContainer img {
   position: relative;
   bottom: 50px;
-  -webkit-box-shadow: 12px 20px 0px 0px rgb(168, 39, 6), -300px 20px 0px 0px rgb(168, 39, 6);
-          box-shadow: 12px 20px 0px 0px rgb(168, 39, 6), -300px 20px 0px 0px rgb(168, 39, 6);
+  right: 70px;
+  -webkit-box-shadow: 20px 20px 0px 0px rgb(168, 39, 6), -300px 20px 0px 0px rgb(168, 39, 6);
+          box-shadow: 20px 20px 0px 0px rgb(168, 39, 6), -300px 20px 0px 0px rgb(168, 39, 6);
 }
 .favouriteThings .wrapper .favouriteText {
   width: 50%;
@@ -418,19 +419,56 @@ header .wrapper .sophie img {
 }
 .travelled .wrapper .travelImgContainer img {
   position: relative;
-  -webkit-box-shadow: 300px 20px 0px 0px rgb(246, 168, 35), 0px 20px 0px 0px rgb(246, 168, 35);
-          box-shadow: 300px 20px 0px 0px rgb(246, 168, 35), 0px 20px 0px 0px rgb(246, 168, 35);
+  top: 30px;
+  left: 40px;
+  -webkit-box-shadow: 300px 20px 0px 0px rgb(246, 168, 35), 20px 20px 0px 0px rgb(246, 168, 35);
+          box-shadow: 300px 20px 0px 0px rgb(246, 168, 35), 20px 20px 0px 0px rgb(246, 168, 35);
 }
 
-.journeyImg {
+.icons {
+  background-color: whitesmoke;
+}
+.icons .contactIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.icons .contactIcons i {
+  background-color: #f6a823;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.chairPhoto img {
   width: 100%;
+}
+
+.journey {
+  background-color: whitesmoke;
+  height: 500px;
+}
+.journey .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.journey .wrapper .journeyImgContainer {
+  width: 40%;
+}
+.journey .wrapper .journeyImgContainer img {
+  position: relative;
+  top: 50px;
+  -webkit-box-shadow: 20px 20px 0px 0px rgb(246, 168, 35);
+          box-shadow: 20px 20px 0px 0px rgb(246, 168, 35);
+}
+.journey .wrapper .journeyText {
+  width: 70%;
 }
 
 .gallery {
   padding: 50px;
 }
-
-.galleryList {
+.gallery .galleryList {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

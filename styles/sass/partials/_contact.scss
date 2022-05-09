@@ -1,7 +1,11 @@
 // contact styling
 
-.contactsMainContent{
-    background-image: url(/assets/contact-image-1.jpg);
-    background-size: cover;
-    // height: 800px;
+.contactsMainContent .wrapper{
+    display: flex;
+        .icons{
+            width: 50%;
+        }
+        .formContainer{
+            width: 50%;
+        }
 }
