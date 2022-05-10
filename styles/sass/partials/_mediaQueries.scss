@@ -1,0 +1,25 @@
+@media (max-width: 480px){
+    html{
+        font-size: 100%;
+    }
+
+    .wrapper{
+        max-width: 100%;
+    }
+
+    .indexHeader{
+        min-width: 100%;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .allAbout img{
+        top: 50px;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+}

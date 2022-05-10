@@ -55,11 +55,11 @@ h3{
 }
 
 h4{
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 h5{
-    font-size: 1.5rem;
+    font-size: 0.5rem;
 }
 
 p{
@@ -69,6 +69,12 @@ p{
 ul, li, a{
     padding: 0;
     margin: 0;
+}
+
+.postsList li::before {
+    content: "• ";
+    color: $orangeYellow;
+    padding: 5px;
 }
 
 ul{
@@ -86,4 +92,48 @@ a{
     background-color: $accent;
     line-height: 32px;
     padding: 15px 25px;
+}
+
+span{
+    color: $secondary;
+    font-weight: bold;
+    font-style: italic;
+}
+
+span.normal{
+    font-style: normal;
+}
+.italic{
+    font-style: italic;
+}
+input{
+    border: none;
+    padding: 20px;
+    background-color: white;
+    width: 40%;
+    margin-right: 15px;
+}
+
+textarea{
+    border:none;
+    margin-top: 20px;
+    background-color: white;
+    padding: 30px;
+}
+
+::placeholder{
+    font-style: italic;     
+}
+
+.blogButton, .contactButton{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: $accent;
+    text-transform: uppercase;
+    font-weight: bold;
+    justify-content: center;
+    width: 84%;
+    padding: 5px;
 }

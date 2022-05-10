@@ -11,6 +11,7 @@
         margin: 0 auto;
         position: relative;
         bottom: 50px;
+        right: 300px;
     }
 }
 
@@ -56,18 +57,6 @@
                 width: 70%;
                 margin-left: 70px;
                 height: 400px;
-                // display: flex;
-
-                input {
-                    width: 40%;
-                    border: none;
-                    padding: 20px;
-                    margin-bottom: 20px;
-                }
-
-                label {
-                    border: none;
-                }
             }
         }
 }

@@ -7,16 +7,34 @@
     position: relative;
     bottom: 100px;
 }
-.blogsMainContent{
-        .wrapper{
-            display: flex;
-                .leftSection{
-                width: 40%;
-            }
-                .rightSection{
-                    width: 60%;
-                }
+.blogMainContent {
+    background-color: whitesmoke;
+}
 
-        }
+.blogLeftSection{
+    width: 40%;
+    background-color: white;
+    margin-right: 30px;
 
 }
+.blogRightSection{
+    width: 70%;
+}
+
+.bloggerText{
+    border-bottom: 5px solid $orangeYellow;
+    margin: 50px;
+}
+.jeremy{
+    display: flex;
+}
+.julia{
+    display: flex;
+    border-bottom: 5px solid $orangeYellow;
+}
+.formBlogContainer{
+    padding-top: 30px;
+}
+
+
+
