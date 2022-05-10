@@ -1,6 +1,7 @@
 footer{
+    display:flex;
+    flex-direction: flex-end;
     background-color: $grey;
-    text-align: center;
+    justify-content: center;
     color: $whiteShade;
-
 }

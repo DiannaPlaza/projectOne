@@ -1,12 +1,22 @@
 // blog styling
-.sophieSidePhoto{
-    width: 100vw;
-    background-color: red;
+.blogHeader img{
+        width: 100vw;
 }
 .blogH1{
     font-size: 4rem;
-    color: red;
     position: relative;
-    bottom: 200px;
-    background-color: red;
+    bottom: 100px;
+}
+.blogsMainContent{
+        .wrapper{
+            display: flex;
+                .leftSection{
+                width: 40%;
+            }
+                .rightSection{
+                    width: 60%;
+                }
+
+        }
+
 }

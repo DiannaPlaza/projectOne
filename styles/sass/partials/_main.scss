@@ -12,8 +12,8 @@
     }
 }
 
-.favouriteThings .wrapper {
-    display: flex;
+// .favouriteThings .wrapper {
+//     // display: flex;
 
     .faveImgContainer {
         width: 50%;
@@ -31,10 +31,10 @@
         width: 50%;
         padding-left: 60px;
     }
-}
+// }
 
-.travelled .wrapper {
-    display: flex;
+// .travelled .wrapper {
+//     display: flex;
 
     .travelledText {
         width: 50%;
@@ -53,12 +53,12 @@
                 20px 20px 0px 0px rgba(246 168 35);
         }
     }
-}
+// }
 
 .icons {
     background-color: $whiteShade;
-    .wrapper{
-        display:flex;
+    // .wrapper{
+    //     display:flex;
         .contactIcons{
             i{
                 background-color: $orangeYellow;
@@ -66,7 +66,7 @@
                 padding: 10px;
             }
         }
-    }
+    // }
 }
 
 .chairPhoto img {
@@ -77,8 +77,8 @@
     background-color: $whiteShade;
     height: 450px;
 
-    .wrapper {
-        display: flex;
+    // .wrapper {
+    //     display: flex;
         .journeyImgContainer {
             width: 40%;
 
@@ -92,7 +92,8 @@
         .journeyText {
             width: 70%;
         }
-    }
+    // }
+    
 }
 
 .gallery {
