@@ -506,7 +506,7 @@ img {
 .contactMainContent .wrapper .iconsContainer {
   background-color: white;
   width: 30%;
-  height: 250px;
+  height: 300px;
   margin-right: 30px;
 }
 .contactMainContent .wrapper .iconsContainer ul {
@@ -530,20 +530,20 @@ img {
   padding-bottom: 15px;
 }
 .contactMainContent .wrapper .iconsContainer .address .email p {
-  line-height: 5px;
+  line-height: 0px;
 }
-.contactMainContent .wrapper .formContainer {
+.contactMainContent .wrapper .iconsContainer .formContainer {
   width: 70%;
   margin-left: 70px;
   height: 400px;
 }
-.contactMainContent .wrapper .formContainer input {
+.contactMainContent .wrapper .iconsContainer .formContainer input {
   width: 40%;
   border: none;
   padding: 20px;
   margin-bottom: 20px;
 }
-.contactMainContent .wrapper .formContainer label {
+.contactMainContent .wrapper .iconsContainer .formContainer label {
   border: none;
 }
 

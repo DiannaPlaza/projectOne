@@ -23,7 +23,7 @@
         .iconsContainer {
             background-color: white;
             width: 30%;
-            height: 250px;
+            height: 300px;
             margin-right: 30px;
 
             ul {
@@ -48,7 +48,7 @@
                     padding-bottom: 15px;
 
                     p {
-                        line-height: 5px;
+                        line-height: 0px;
                     }
                 }
             }
@@ -71,3 +71,4 @@
             }
         }
     }
+}
